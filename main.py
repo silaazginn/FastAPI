@@ -94,8 +94,10 @@ def create_contact(contact_data: Contact):
     return {"message": "Contact added successfully", "contact_details": contact_data}
  
 # Sample Body 
-# {"first_name": "Sila",
-#  "last_name": "Azgin",
-#  "phone_number": "+6-666-666-6666",
-#  "email": "silaazgin@blabla.com",
-#  "address": "İstanbul, Sultangazi, Turkiye"}
+# {
+#    "first_name": "Sila",
+#    "last_name": "Azgin",
+#    "phone_number": "+6-666-666-6666",
+#    "email": "silaazgin@blabla.com",
+#    "address": "İstanbul, Sultangazi, Türkiye"
+#}
